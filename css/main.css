@@ -2,6 +2,16 @@ html {
   font-family: Oswald, sans-serif;
 }
 
+.join-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.join-link:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
 .value-prop {
   font-family: "Metal Mania", sans-serif;
 }
