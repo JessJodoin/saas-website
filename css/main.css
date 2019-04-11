@@ -1,0 +1,31 @@
+html {
+  font-family: Oswald, sans-serif;
+}
+
+.value-prop {
+  font-family: "Metal Mania", sans-serif;
+}
+
+.icon-cards {
+  background-color: #6A0300;
+  color: #fff;
+}
+
+.icon-cards-b {
+  background-color: #000;
+  color: #fff;
+}
+
+.h3 {
+  font-family: "Metal Mania", sans-serif;
+}
+
+.footer {
+  background-color: #6A0300;
+  color: #fff;
+}
+
+.foot-links a {
+  color: #fff;
+  text-decoration: none;
+}
