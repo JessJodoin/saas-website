@@ -10,7 +10,119 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Metal+Mania|Oswald:400,700" rel="stylesheet">
 </head>
-<body>
+<body class="sign-up">
+
+  <section class="island max-length sign-up-form">
+    <div class="pad-t">
+      <h1 class="join-h1 yotta">Easy to use service with exclusive industry access.</h1>
+
+      <form class="push-0" method="POST" action="https://formspree.io/jodo0083@algonquinlive.com">
+        <fieldset class="push-3-4">
+          <legend class="push-3-4 tera">Personal details</legend>
+
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-r">
+              <label class="push-1-2 giga" for="name-f">First Name</label>
+              <input id="name-f" name="name" required>
+            </div>
+
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-l">
+              <label class="push-1-2 giga" for="name-l">Last Name</label>
+              <input id="name-l" name="name" required>
+            </div>
+
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-r">
+              <label class="push-1-2 giga" for="email">Email</label>
+              <input id="email" type="email" name="email" required>
+            </div>
+
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-l">
+              <label class="push-1-2 giga" for="con-email">Confirm Email</label>
+              <input id="con-email" type="email" name="email" required>
+            </div>
+
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-r">
+              <label class="push-1-2 giga" for="username">Username</label>
+              <input id="username" name="username" required>
+            </div>
+
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-l">
+              <label class="push-1-2 giga" for="password">Password</label>
+              <input id="password" type="password" name="password" required>
+            </div>
+          </div>
+        </fieldset>
+
+        <hr>
+
+        <fieldset class="push">
+          <legend class="push-3-4 tera">Plans</legend>
+
+            <div class="push">
+              <p class="push-1-2 giga">Type of Plan</p>
+
+              <input id="creator" type="radio" name="plan">
+              <label class="push-r" for="creator">Creator</label>
+
+              <input id="fan" type="radio" name="plan">
+              <label class="push-r" for="fan">Fan</label>
+            </div>
+
+          <div class="push">
+            <label class="push-1-2 giga" for="fitness">Price of Plan</label>
+            <select id="fitness" name="fitness">
+              <option>Free!</option>
+              <option>Basic - ($12.95)</option>
+              <option>Premium - ($19.95)</option>
+            </select>
+          </div>
+
+          <div>
+            <p class="push-1-2 giga">Payment Type</p>
+
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <input id="viz" type="radio" name="payment">
+                <label class="push-r push-1-2" for="viz">Vitza</label>
+              </div>
+
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <input id="nickles" type="radio" name="payment">
+                <label class="push-r push-1-2" for="nickles">Stanley Nickles</label>
+              </div>
+
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <input id="murstr" type="radio" name="payment">
+                <label class="push-r push-1-2" for="murstr">Murstrcrd</label>
+              </div>
+
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <input id="shrute" type="radio" name="payment">
+                <label class="push-r push-1-2" for="shrute">Shrute Bucks</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <hr>
+
+        <fieldset class="push-2">
+          <legend class="push-1-2 bold tera">Keep me updated on new MUSE services.</legend>
+
+          <input id="yes" type="radio" name="updated">
+          <label class="push-r" for="yes">Yes</label>
+
+          <input id="no" type="radio" name="updated">
+          <label class="push-r" for="no">No</label>
+        </fieldset>
+
+        <div class="center-content">
+          <button class="btn btn-colour bold tera gutter-2" type="submit">Join</button>
+          <input type="hidden" name="_subject" value="Join MUSE">
+        </div>
+      </form>
+    </div>
+  </section>
 
 </body>
 </html>

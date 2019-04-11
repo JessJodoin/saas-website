@@ -29,3 +29,63 @@ html {
   color: #fff;
   text-decoration: none;
 }
+
+.sign-up {
+  background-color: #6A0300;
+}
+
+.sign-up-form {
+  background-color: #fff;
+}
+
+.join-h1 {
+  font-family: "Metal Mania", sans-serif;
+}
+
+fieldset {
+  border: none;
+}
+
+hr {
+  border-color: rgba(106, 3, 0, .7);
+}
+
+input,
+select,
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before {
+  border-color: #6A0300;
+}
+
+.btn-colour {
+  background-color: #000;
+}
+
+.btn-colour:hover {
+  background-color: #C70500;
+  border-color: #C70500;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pad-r {
+    padding-right: .7rem;
+  }
+
+  .pad-l {
+    padding-left: .7rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .pad-r {
+    padding-right: .75rem;
+  }
+
+  .pad-l {
+    padding-left: .75rem;
+  }
+
+}
