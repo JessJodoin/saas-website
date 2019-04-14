@@ -30,18 +30,8 @@ html {
 }
 
 .nav-colour a:hover {
-  background-color: #6A0300;
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-colour-b {
-  background-color: #000;
-}
-
-.nav-colour-b a {
-  color: #fff;
-  text-decoration: none;
+  color: #C70500;
+  text-decoration: underline;
 }
 
 header [type="checkbox"] + label::before {
@@ -87,6 +77,82 @@ header [type="checkbox"] + label::before {
   font-family: "Metal Mania", sans-serif;
 }
 
+img {
+  display: block;
+}
+
+.sec-1 {
+  background-color: rgba(106, 3, 0, .94);
+}
+
+.banner-img {
+  overflow: hidden;
+}
+
+.ban-con {
+  color: #fff;
+}
+
+.btn1 {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.btn1:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn2 {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn2:hover {
+  background-color: #C70500;
+  color: #fff;
+  border-color: #C70500;
+}
+
+.i-size {
+  max-width: 96px;
+}
+
+.album {
+  max-width: 10em;
+}
+
+.btn3 {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.btn3:hover {
+  background-color: #C70500;
+  color: #fff;
+  border-color: #C70500;
+}
+
+.sec-4 {
+  background-color: #000;
+}
+
+.btn4 {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn4:hover {
+  background-color: #C70500;
+  color: #fff;
+  border-color: #C70500;
+}
+
 .icon-cards {
   background-color: #6A0300;
   color: #fff;
@@ -109,6 +175,10 @@ header [type="checkbox"] + label::before {
 .foot-links a {
   color: #fff;
   text-decoration: none;
+}
+
+.foot-li a:hover {
+  text-decoration: underline;
 }
 
 .sign-up {
