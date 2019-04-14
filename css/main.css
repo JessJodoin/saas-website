@@ -217,6 +217,46 @@ input[type="checkbox"] + label::before {
   border-color: #C70500;
 }
 
+.focus-title:focus {
+  outline: 3px solid #fff;
+}
+
+.btn1:focus {
+  outline: 3px solid #fff;
+
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn2:focus {
+  outline: 3px solid #fff;
+
+  background-color: #C70500;
+  color: #fff;
+  border-color: #C70500;
+}
+
+.btn3:focus {
+  outline: 3px solid #C70500;
+
+  background-color: #C70500;
+  color: #fff;
+  border-color: #C70500;
+}
+
+.btn4:focus {
+  outline: 3px solid #C70500;
+
+  background-color: #C70500;
+  color: #fff;
+  border-color: #C70500;
+}
+
+.focus-foot:focus {
+  outline: 3px solid #fff;
+}
+
 @media only screen and (min-width: 38em) {
 
 
