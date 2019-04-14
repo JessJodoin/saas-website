@@ -181,6 +181,82 @@ img {
   text-decoration: underline;
 }
 
+.price-card {
+  background-color: #C70500;
+  border-radius: 15px;
+}
+
+.p-h1 {
+  font-family: "Metal Mania", sans-serif;
+  color: #fff;
+  background-color: #6A0300;
+}
+
+.p-h3 {
+  font-family: "Metal Mania", sans-serif;
+  color: #fff;
+}
+
+.p-small {
+  color: #fff;
+}
+
+.price-label {
+  color: #fff;
+}
+
+.btn-p-1 {
+  background-color: #C70500;
+  color: #fff;
+  border: 5px solid #fff;
+  border-radius: 6px;
+}
+
+.btn-p-1:hover {
+  background-color: #fff;
+  color: #C70500;
+  border: 5px solid #fff;
+  border-radius: 6px;
+}
+
+.price-card-m {
+  background-color: #6A0300;
+  border-radius: 15px;
+}
+
+.btn-p-2 {
+  background-color: #6A0300;
+  color: #fff;
+  border: 5px solid #fff;
+  border-radius: 6px;
+}
+
+.btn-p-2:hover {
+  background-color: #fff;
+  color: #6A0300;
+  border: 5px solid #fff;
+  border-radius: 6px;
+}
+
+.price-card-b {
+  background-color: #000;
+  border-radius: 15px;
+}
+
+.btn-p-3 {
+  background-color: #000;
+  color: #fff;
+  border: 5px solid #fff;
+  border-radius: 6px;
+}
+
+.btn-p-3:hover {
+  background-color: #fff;
+  color: #000;
+  border: 5px solid #fff;
+  border-radius: 6px;
+}
+
 .sign-up {
   background-color: #6A0300;
 }
@@ -252,6 +328,34 @@ input[type="checkbox"] + label::before {
   color: #fff;
   border-color: #C70500;
 }
+
+.btn-p-1:focus {
+  outline: 3px solid #fff;
+
+  background-color: #fff;
+  color: #C70500;
+  border: 5px solid #fff;
+  border-radius: 6px;
+}
+
+.btn-p-2:focus {
+  outline: 3px solid #fff;
+
+  background-color: #fff;
+  color: #6A0300;
+  border: 5px solid #fff;
+  border-radius: 6px;
+}
+
+.btn-p-3:focus {
+  outline: 3px solid #fff;
+
+  background-color: #fff;
+  color: #000;
+  border: 5px solid #fff;
+  border-radius: 6px;
+}
+
 
 .focus-foot:focus {
   outline: 3px solid #fff;
