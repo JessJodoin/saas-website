@@ -12,7 +12,12 @@
 </head>
 <body>
 
-  <header class="gutter">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="gutter" role="banner">
     <div class="pad-t join-link">
       <p class="push-1-2 giga"><a class="join-link" href="sign-up.html">Join</a></p>
     </div>
@@ -25,7 +30,7 @@
           <img class="nav-close" src="images/icons/ham-close.svg" alt="">
         </i>
       </label>
-      <nav class="nav island-1-2 gutter">
+      <nav class="nav island-1-2 gutter role="navigation" id="nav" tabindex="0"">
         <ul class="list-group push-0">
           <li class="nav-colour push-1-4 mega current"><a href="index.html">Home</a></li>
           <li class="nav-colour push-1-4 mega"><a href="tour.html">Features</a></li>
@@ -39,7 +44,7 @@
         <img class="img-flex" src="images/logo/logo.png" alt="">
       </div>
 
-      <nav class="nav-d unit xs-0 s-0 m-1-2 l-2-3 pad-t">
+      <nav class="nav-d unit xs-0 s-0 m-1-2 l-2-3 pad-t" role="navigation" id="nav" tabindex="0">
         <ul class="list-group-inline">
           <li class="gutter-1-4 current"><a href="index.html">Home</a></li>
           <li class="gutter-1-4"><a href="tour.html">Features</a></li>
@@ -50,13 +55,13 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
     <section class="push sec-1">
       <div class="relative banner-img">
-        <img src="images/photos/banner-m-1.png" alt="">
+        <img src="images/photos/banner-m-1.png" alt="Image of man singing" aria-details="main-banner">
 
-        <div class="absolute pin-cr gutter-2 pad-t ban-con max-length">
-          <h1 class="value-prop tena">The Best Songs.
+        <div class="absolute pin-cr gutter-2 pad-t-1-2 ban-con max-length" id="main-banner">
+          <h1 class="value-prop nina" tabindex="0">The Best Songs.
             <br>The Best Artists.</h1>
 
           <p class="push-2 pad-t-1-2 giga">Ad-free listening right at your fingertips. Save tracks, follow artists, and build playlists.</p>
@@ -69,7 +74,7 @@
     </section>
 
     <section class="push">
-      <h2 class="value-prop nina gutter">More fans. More gigs. More money. Less effort.</h2>
+      <h2 class="value-prop nina gutter" tabindex="0">More fans. More gigs. More money. Less effort.</h2>
 
       <ol class="grid list-group">
         <li class="unit xs-1 s-1 m-1-3 l-1-3 icon-cards pad-t-1-2 pad-b-1-2 unit-content-distribute">
@@ -81,7 +86,7 @@
               <h3 class="h3 push-1-4">Exclusive Access</h3>
               <p class="push-0 content-fill">Stream hours of content, make playlists, and follow your favourite artists.</p>
             </span>
-            <div class="unit xs-0 s-0 m-1 l-1 pad-t-2">
+            <div class="unit xs-0 s-0 m-1 l-1 pad-t-2 gutter-1-2">
               <a class="btn btn2 giga" href="tour.html">Check Out Features</a>
             </div>
           </div>
@@ -96,7 +101,7 @@
               <h3 class="h3 push-1-4">Amazing Opportunities</h3>
               <p class="push-0 content-fill">Upload music, sell merch, and see what’s new in the industry.</p>
             </span>
-            <div class="unit xs-0 s-0 m-1 l-1 pad-t-2">
+            <div class="unit xs-0 s-0 m-1 l-1 pad-t-2 gutter-1-2">
               <a class="btn btn2 giga" href="tour.html">Check Out Features</a>
             </div>
           </div>
@@ -111,7 +116,7 @@
               <h3 class="h3 push-1-4">Grow Your Fan Base</h3>
               <p class="push-0 content-fill">Build a site to promote your band and connect with fans.</p>
             </span>
-            <div class="unit xs-1 s-1 m-1 l-1 pad-t-2">
+            <div class="unit xs-1 s-1 m-1 l-1 pad-t-2 gutter-1-2">
               <a class="btn btn2 giga" href="tour.html">Check Out Features</a>
             </div>
           </div>
@@ -120,60 +125,60 @@
     </section>
 
     <section class="push">
-      <h2 class="value-prop nina gutter">The Latest from Your Favourites</h2>
+      <h2 class="value-prop nina gutter" tabindex="0">The Latest from Your Favourites</h2>
 
       <div class="grid gutter-1-2">
-        <div class="unit xs-1 s-1 m-1-6 l-1-6 push island-1-4">
+        <div class="unit unit-xs-centered unit-s-centered m-1-6 l-1-6 push island-1-4" tabindex="0">
           <div>
-            <img class="img-flex album" src="images/photos/albums/album-1.png" alt="">
+            <img class="img-flex album" src="images/photos/albums/album-1.png" alt="Album art" aria-details="album-1">
           </div>
 
-          <div class="pad-t-1-2">
+          <div class="pad-t-1-2" id="album-1">
             <p class="push-0 bold">Same About You</p>
             <p class="push-0">A Day To Remember</p>
           </div>
         </div>
 
-        <div class="unit xs-0 s-0 m-1-6 l-1-6 push island-1-4">
-          <img class="img-flex album" src="images/photos/albums/album-2-16.png" alt="">
+        <div class="unit xs-0 s-0 m-1-6 l-1-6 push island-1-4" tabindex="0">
+          <img class="img-flex album" src="images/photos/albums/album-2-16.png" alt="Album art" aria-details="album-2">
 
-          <div class="pad-t-1-2">
+          <div class="pad-t-1-2" id="album-2">
             <p class="push-0 bold">Hereafter</p>
             <p class="push-0">Architects</p>
           </div>
         </div>
 
-        <div class="unit xs-1 s-1 m-1-6 l-1-6 push island-1-4">
-          <img class="img-flex album" src="images/photos/albums/album-7.png" alt="">
+        <div class="unit unit-xs-centered unit-s-centered m-1-6 l-1-6 push island-1-4" tabindex="0">
+          <img class="img-flex album" src="images/photos/albums/album-7.png" alt="Album art" aria-details="album-3">
 
-          <div class="pad-t-1-2">
+          <div class="pad-t-1-2" id="album-3">
             <p class="push-0 bold">Skeletons</p>
             <p class="push-0">The Amity Affliction</p>
           </div>
         </div>
 
-        <div class="unit xs-0 s-0 m-1-6 l-1-6 push island-1-4">
-          <img class="img-flex album" src="images/photos/albums/album-8.png" alt="">
+        <div class="unit xs-0 s-0 m-1-6 l-1-6 push island-1-4" tabindex="0">
+          <img class="img-flex album" src="images/photos/albums/album-8.png" alt="Album art" aria-details="album-4">
 
-          <div class="pad-t-1-2">
+          <div class="pad-t-1-2" id="album-4">
             <p class="push-0 bold">Ocean Eyes</p>
             <p class="push-0">American Avenue</p>
           </div>
         </div>
 
-        <div class="unit xs-1 s-1 m-1-6 l-1-6 push island-1-4">
-          <img class="img-flex album" src="images/photos/albums/album-13.png" alt="">
+        <div class="unit unit-xs-centered unit-s-centered m-1-6 l-1-6 push island-1-4" tabindex="0">
+          <img class="img-flex album" src="images/photos/albums/album-13.png" alt="Album art" aria-details="album-5">
 
-          <div class="pad-t-1-2">
+          <div class="pad-t-1-2" id="album-5">
             <p class="push-0 bold">mother tongue</p>
             <p class="push-0">Bring Me The Horizon</p>
           </div>
         </div>
 
-        <div class="unit xs-0 s-0 m-1-6 l-1-6 push island-1-4">
-          <img class="img-flex album" src="images/photos/albums/album-14.png" alt="">
+        <div class="unit xs-0 s-0 m-1-6 l-1-6 push island-1-4" tabindex="0">
+          <img class="img-flex album" src="images/photos/albums/album-14.png" alt="Album art" aria-details="album-6">
 
-          <div class="pad-t-1-2">
+          <div class="pad-t-1-2" id="album-6">
             <p class="push-0 bold">The Leap</p>
             <p class="push-0">Out Last Night</p>
           </div>
@@ -187,10 +192,10 @@
 
     <section class="sec-4">
       <div class="relative banner-img">
-        <img src="images/photos/banner-m-2.png" alt="">
+        <img src="images/photos/banner-m-2.png" alt="Image of band We Came As Romans" aria-details="build-banner">
 
-        <div class="absolute pin-cr gutter-2 pad-t ban-con max-length">
-          <h2 class="value-prop tena">Build Your Brand</h2>
+        <div class="absolute pin-cr gutter-2 pad-t-1-2 ban-con max-length" id="build-banner">
+          <h2 class="value-prop nina" tabindex="0">Build Your Brand</h2>
 
           <p class="push-2 pad-t-1-2 giga">Easy-to-use services and exclusive industry access. Upload your first track and begin your journey.</p>
 
@@ -202,7 +207,7 @@
     </section>
   </main>
 
-  <footer class="footer island-1-2">
+  <footer class="footer island-1-2" role="contentinfo">
     <div class="grid">
       <ul class="unit xs-1-3 s-1-3 m-1-3 l-1-3 list-group push-0 pad-t">
         <li class="push-1-2"><a href="">
