@@ -2,6 +2,11 @@ html {
   font-family: Oswald, sans-serif;
 }
 
+.current {
+  color: #6A0300;
+  text-decoration: underline;
+}
+
 .join-link {
   text-decoration: none;
   color: #000;
@@ -9,7 +14,7 @@ html {
 
 .join-link:hover {
   text-decoration: underline;
-  color: #000;
+  color: #C70500;
 }
 
 .nav {
@@ -61,6 +66,21 @@ header [type="checkbox"] + label::before {
 
 .nav-d {
   display: none;
+}
+
+.nav-d a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-d a:hover {
+  text-decoration: underline;
+  color: #C70500;
+}
+
+.sn-up {
+  border-left: 2px solid #000;
+  padding-left: 1.3rem;
 }
 
 .value-prop {
@@ -137,6 +157,7 @@ input[type="checkbox"] + label::before {
 
   .nav-d {
     display: block;
+    text-align: right;
   }
 
   .pad-r {
@@ -145,6 +166,10 @@ input[type="checkbox"] + label::before {
 
   .pad-l {
     padding-left: .7rem;
+  }
+
+  .join-link {
+    display: none;
   }
 
 }
