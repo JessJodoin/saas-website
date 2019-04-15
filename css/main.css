@@ -257,6 +257,22 @@ img {
   border-radius: 6px;
 }
 
+.btn-t-4 {
+  background-color: #C70500;
+  color: #fff;
+  border-color: #C70500;
+}
+
+.btn-t-4:hover {
+  background-color: #fff;
+  color: #C70500;
+  border-color: #fff;
+}
+
+.table-w {
+  width: 12em;
+}
+
 .sign-up {
   background-color: #6A0300;
 }
@@ -356,7 +372,6 @@ input[type="checkbox"] + label::before {
   border-radius: 6px;
 }
 
-
 .focus-foot:focus {
   outline: 3px solid #fff;
 }
@@ -384,6 +399,10 @@ input[type="checkbox"] + label::before {
 
   .join-link {
     display: none;
+  }
+
+  .line-space {
+    border-left: 3px solid #fff;
   }
 
 }
