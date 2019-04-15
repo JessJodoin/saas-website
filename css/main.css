@@ -269,6 +269,10 @@ img {
   border-color: #fff;
 }
 
+.table, tr, th, td {
+  border: none;
+}
+
 .table-w {
   width: 12em;
 }
