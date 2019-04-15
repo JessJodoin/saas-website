@@ -277,6 +277,18 @@ img {
   width: 12em;
 }
 
+.i-label-r {
+  background-color: #C70500;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.i-label-m {
+  background-color: #6A0300;
+  color: #fff;
+  border-radius: 6px;
+}
+
 .sign-up {
   background-color: #6A0300;
 }
@@ -381,6 +393,22 @@ input[type="checkbox"] + label::before {
   color: #000;
   border: 5px solid #fff;
   border-radius: 6px;
+}
+
+.btn-t-4:focus {
+  outline: 3px solid #fff;
+
+  background-color: #fff;
+  color: #C70500;
+  border-color: #fff;
+}
+
+.ban-con:focus {
+  outline: 3px solid #fff;
+}
+
+.table-w:focus {
+  outline: 3px solid #C70500;
 }
 
 .focus-foot:focus {
