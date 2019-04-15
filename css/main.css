@@ -313,6 +313,13 @@ input[type="checkbox"] + label::before {
   border-color: #C70500;
 }
 
+.btn-colour:focus {
+  outline: 3px solid #000;
+
+  background-color: #C70500;
+  border-color: #C70500;
+}
+
 .focus-title:focus {
   outline: 3px solid #fff;
 }
