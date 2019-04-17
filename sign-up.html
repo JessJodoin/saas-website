@@ -29,24 +29,36 @@
 
       <nav class="nav unit unit-xs-centered unit-s-centered m-1-2 l-2-3 pad-t" role="navigation" id="nav" tabindex="0">
         <ul class="list-group-inline">
-          <li class="gutter-1-4 current"><a href="index.html">Home</a></li>
-          <li class="gutter-1-4"><a href="tour.html">Features</a></li>
-          <li class="gutter-1-4 push-r-1-4"><a href="pricing.html">Pricing</a></li>
-          <li class="sn-up"><a class="join-link2" href="sign-up.html">Join</a></li>
+          <li class="gutter-1-4 current giga"><a href="index.html">Home</a></li>
+          <li class="gutter-1-4 giga"><a href="tour.html">Features</a></li>
+          <li class="gutter-1-4 push-r-1-4 giga"><a href="pricing.html">Pricing</a></li>
+          <li class="sn-up giga"><a class="join-link2" href="sign-up.html">Join</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="sign-up pad-t-2 pad-b-2" role="main" id="main" tabindex="0">
-    <section class="island max-length sign-up-form">
+  <main class="sign-up" role="main" id="main">
+    <section class="sec-1">
+      <div class="relative banner-img">
+        <img class="ban-sign" src="images/photos/banner-s-1.svg" alt="Image of man playing guitar" aria-details="main-banner">
+
+        <div class="absolute pin-cr gutter-2 pad-t-1-2 ban-con max-length" id="main-banner">
+          <h1 class="value-prop nina focus-title" tabindex="0">Easy to use service with exclusive industry access.</h1>
+
+          <div>
+            <a class="btn tera gutter btn1" href="sign-up.html">Join</a>
+          </div>
+        </div>
+      </div>
+
       <div class="embed embed-16by9 hidden">
         <img class="embed-item" src="images/photos/banner-m-1.png" alt="Image of man singing">
       </div>
+    </section>
 
+    <section class="island max-length sign-up-form">
       <div class="pad-t">
-        <h1 class="join-h1 yotta" tabindex="0">Easy to use service with exclusive industry access.</h1>
-
         <form class="push-0" role="search" method="POST" action="https://formspree.io/jodo0083@algonquinlive.com">
           <fieldset class="push-3-4">
             <legend class="push-3-4 tera" tabindex="0">Personal details</legend>
@@ -86,51 +98,51 @@
 
           <hr>
 
+          <h2 class="push-3-4 tera" tabindex="0">Plans</h2>
+
           <fieldset class="push">
-            <legend class="push-3-4 tera" tabindex="0">Plans</legend>
+            <legend class="push-1-2 giga">Type of Plan</legend>
 
-            <div class="push">
-              <h2 class="push-1-2 giga">Type of Plan</h2>
+            <input id="creator" type="radio" name="plan">
+            <label class="push-r" for="creator">Creator</label>
 
-              <input id="creator" type="radio" name="plan">
-              <label class="push-r" for="creator">Creator</label>
+            <input id="fan" type="radio" name="plan">
+            <label class="push-r" for="fan">Fan</label>
+          </fieldset>
 
-              <input id="fan" type="radio" name="plan">
-              <label class="push-r" for="fan">Fan</label>
-            </div>
+          <fieldset class="push">
+            <legend class="hidden">Price of Plan</legend>
 
-            <div class="push">
-              <label class="push-1-2 giga" for="price">Price of Plan</label>
-              <select id="price" name="price">
-                <option>Free!</option>
-                <option>Basic - ($12.95)</option>
-                <option>Premium - ($19.95)</option>
-              </select>
-            </div>
+            <label class="push-1-2 giga bold" for="price">Price of Plan</label>
+            <select id="price" name="price">
+              <option>Free!</option>
+              <option>Basic - ($12.95)</option>
+              <option>Premium - ($19.95)</option>
+            </select>
+          </fieldset>
 
-            <div>
-              <h2 class="push-1-2 giga">Payment Type</h2>
+          <fieldset>
+            <legend class="push-1-2 giga">Payment Type</legend>
 
-              <div class="grid">
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
-                  <input id="viz" type="radio" name="payment">
-                  <label class="push-r push-1-2" for="viz">Vitza</label>
-                </div>
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <input id="viz" type="radio" name="payment">
+                <label class="push-r push-1-2" for="viz">Vitza</label>
+              </div>
 
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
-                  <input id="nickles" type="radio" name="payment">
-                  <label class="push-r push-1-2" for="nickles">Stanley Nickles</label>
-                </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <input id="nickles" type="radio" name="payment">
+                <label class="push-r push-1-2" for="nickles">Stanley Nickles</label>
+              </div>
 
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
-                  <input id="murstr" type="radio" name="payment">
-                  <label class="push-r push-1-2" for="murstr">Murstrcrd</label>
-                </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <input id="murstr" type="radio" name="payment">
+                <label class="push-r push-1-2" for="murstr">Murstrcrd</label>
+              </div>
 
-                <div class="unit xs-1 s-1 m-1-2 l-1-2">
-                  <input id="shrute" type="radio" name="payment">
-                  <label class="push-r push-1-2" for="shrute">Shrute Bucks</label>
-                </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <input id="shrute" type="radio" name="payment">
+                <label class="push-r push-1-2" for="shrute">Shrute Bucks</label>
               </div>
             </div>
           </fieldset>
