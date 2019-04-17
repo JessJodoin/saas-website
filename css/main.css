@@ -24,6 +24,10 @@ html {
   border-radius: 5px;
 }
 
+.nav-skip-link2 {
+  display: none;
+}
+
 .nav-colour a {
   color: #000;
   text-decoration: none;
@@ -425,6 +429,14 @@ input[type="checkbox"] + label::before {
   .nav-d {
     display: block;
     text-align: right;
+  }
+
+  .nav-skip-link {
+    display: none;
+  }
+
+  .nav-skip-link2 {
+    display: block;
   }
 
   .pad-r {
